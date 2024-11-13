@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cli-app"
+version = "0.1.0"
+description = "A CLI application using Click"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "."}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+cli-app = "app:app"

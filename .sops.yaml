@@ -1,0 +1,4 @@
+creation_rules:
+  - path_regex: \.(secrets|creds)\.yml$
+    gcp_kms: projects/lake-337312/locations/global/keyRings/cursor-keyring/cryptoKeys/cursor-key
+    age: age1f6w9cjk7x7sd5zdvqm54pf5a47msw7g4xnzcrkawqkvd892nvqgq9t2krk

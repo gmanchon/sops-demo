@@ -1,0 +1,24 @@
+a: ENC[AES256_GCM,data:5Q==,iv:qlsAuN1Ppz6ECjPZvaopuojS4/kjR9hpMR0zDdCdco0=,tag:F/t5YqW9jwG+CdItBePIkQ==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+        - resource_id: projects/lake-337312/locations/global/keyRings/cursor-keyring/cryptoKeys/cursor-key
+          created_at: "2024-11-13T13:34:10Z"
+          enc: CiQAoDWZq+BEurq/Q8wMNjxIgoYUP8TtLFAWbVLy9Pr10ekzfOQSSQAxlL+hsJ1oWTZDfq6fakdmLnWYtonFumKBTtyfPe1YjlhKc1BHPT8M6KDQoOPJRNdODwqUrbIa2i+sKps9emknOyoULr5tDhA=
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1f6w9cjk7x7sd5zdvqm54pf5a47msw7g4xnzcrkawqkvd892nvqgq9t2krk
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBtT093bjQ4Nk0xMlZnTE53
+            T0ROWE9ISndjVTZnOU1FdVp0VTRTc3l4a1I0Cis5amQxdVNkd0FRbmF5T2JwbGRo
+            MDVWdDNZU0ZzWHJTd3ZQdGl5aUsyWG8KLS0tIEh6dXRSOWtOTVZHM3JqVDd5bXl1
+            cXVOSDhCYXVlYVdXRWJPVXVhSmhqcHcKCtu8fqgIUACa+YK5d0FlDBgJ3O36Dd2P
+            447COGMvuz+/N3EWj3+g6kfpKH4t3vq8X2NFyUYdT1yeudxFb+vegg==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2024-11-13T13:34:10Z"
+    mac: ENC[AES256_GCM,data:p6PJttuWCzlp0MVdm60PyuW1LtWDv/DzaEMjhJ+sWEWMRIf4dI5FAQOT452yasfmABOmGTmojPNd0RPtVWY9tbdf4MmoQkOF0pd5LEujHSsTgSi1BKYnmWKFv2fE8HcZ4NlMmSfE62ks7nD+a8B5fmhaTIlGEMy1r3Q4c3iXwEE=,iv:6jauSrele+P6VAeuuPFlG5swTLnEoia6jwq6uXVyHsg=,tag:OzVV5oNzGhYvLOeSb+MBng==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.9.1
