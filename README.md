@@ -7,6 +7,13 @@ brew install sops age
 
 ## setup
 
+### customise editor
+
+``` bash
+export EDITOR="code --wait"
+export EDITOR="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl --wait"
+```
+
 ### local key
 
 create local age key
