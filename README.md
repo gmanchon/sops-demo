@@ -66,8 +66,8 @@ creation_rules:
 ```
 
 currently:
-- `.creds.yml` is encrypted with the gcp kms key and 
-- `.secrets.yml` is encrypted with the gcp kms key
+- `.creds.yml` is encrypted with both the gcp kms key and the age key
+- `.secrets.yml` is encrypted with the gcp kms key only
 
 ## tests after removing the key from gcp kms
 
