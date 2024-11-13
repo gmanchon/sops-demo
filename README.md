@@ -14,7 +14,7 @@ export EDITOR="code --wait"
 export EDITOR="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl --wait"
 ```
 
-### local key
+### local age key
 
 create local age key
 
@@ -28,7 +28,7 @@ export sops environment variable for the age key
 export SOPS_AGE_KEY_FILE=key.txt
 ```
 
-### gcp kms
+### gcp kms key
 
 activate kms api
 
@@ -71,7 +71,7 @@ currently:
 
 ## tests after removing the key from gcp kms
 
-`.creds.yml` is still able to be decrypted with the local key
+`.creds.yml` is still able to be decrypted with the local age key
 
 ``` bash
 sops -d .creds.yml  # succeeds
