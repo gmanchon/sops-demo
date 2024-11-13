@@ -1,4 +1,10 @@
 
+## install
+
+``` bash
+brew install sops age
+```
+
 ## setup
 
 ### local key
